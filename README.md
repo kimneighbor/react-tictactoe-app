@@ -2,3 +2,4 @@
 
 - React 를 활용한 tic-tac-toe 앱 입니다.
 - CSS 미적용
+- 미완성
