@@ -42,7 +42,7 @@ const Board = () => {
         const newSquares = squares.slice();
         newSquares[i] = xIsNext ? 'X' : 'O';
         setSquares(newSquares);
-        setXIsNext(!xIsNext);
+        setXIsNext(prev => !prev);
 
     }
 
