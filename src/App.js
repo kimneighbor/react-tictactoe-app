@@ -53,6 +53,17 @@ function App() {
         setXIsNext(prev => !prev);
     }
 
+    const moves = history.map((step, move) => {
+        const desc = move ?
+            'Go to move #' + move :
+            'Go to game start';
+            return (
+                <li>
+                    <button>{desc}</button>
+                </li>
+            )
+    })
+
     return (
         <div className="game">
             <div className="game-board">
@@ -61,6 +72,7 @@ function App() {
             {/*주석 다는 방법*/}
             <div className="game-info">
                 <div className='status'>{status}</div>
+                <ol>{moves}</ol>
             </div>
         </div>
     );
