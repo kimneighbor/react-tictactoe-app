@@ -9,12 +9,12 @@
     height: 100px;
     width: 100px;
     float: left;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .square:hover {
 
-    background-color: #9e9176;
+    background-color: #807660;
     color: white;
     cursor: pointer;
 }
