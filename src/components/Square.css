@@ -1,6 +1,6 @@
 .square {
-    background-color: white;
-    border: 1px solid #999999;
+    background-color: #f8e1b7;
+    border: 2px solid #9e9176;
     font-size: 24px;
     height: 34px;
     margin-right: -1px;
@@ -8,5 +8,13 @@
     padding: 0;
     text-align: center;
     width: 34px;
-    float : left;
+    float: left;
+    border-radius: 5px;
+}
+
+.square:hover {
+
+    background-color: #9e9176;
+    color: white;
+    cursor: pointer;
 }

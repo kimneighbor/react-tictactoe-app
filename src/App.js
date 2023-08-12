@@ -59,7 +59,7 @@ function App() {
             'Go to game start';
             return (
                 <li>
-                    <button>{desc}</button>
+                    <button className="btn">{desc}</button>
                 </li>
             )
     })

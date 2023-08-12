@@ -5,4 +5,11 @@
 
 .game-info {
     margin-left : 20px;
+
 }
+.btn {
+    background-color: #f89774;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
