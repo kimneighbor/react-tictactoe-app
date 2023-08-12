@@ -1,16 +1,11 @@
 .board-wrapper {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: rgba(0, 0, 0, 0.19);
-    border-radius: 9px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
     overflow: hidden;
 
 }
 
 .status {
     margin-bottom: 20px;
-    background-color: #f8e1b7;
-    color : black;
-    border-radius: 10px;
-    padding: 10px;
-    border: 2px solid #9e9176;
 }
