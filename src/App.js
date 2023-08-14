@@ -68,7 +68,7 @@ function App() {
             'Go to move #' + move :
             'Go to game start';
         return (
-            <li key={move}>
+            <li className="createList" key={move}>
                 <button className="move-btn" onClick={() => jumpTo(move)}>{desc}</button>
             </li>
         )

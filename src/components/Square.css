@@ -11,10 +11,11 @@
     width: 100px;
     float: left;
     border-radius: 4px;
+
 }
 
 .square:hover {
-
+    transition: all 0.4s;
     background-color: #807660;
     color: white;
     cursor: pointer;
