@@ -1,9 +1,0 @@
-.board-wrapper {
-    border: 2px solid #9e9176;
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    overflow: hidden;
-}
-.status {
-    margin-bottom: 20px;
-}
