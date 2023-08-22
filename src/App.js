@@ -1,6 +1,7 @@
 import "./App.css"
 import Board from "./components/Board";
 import React, {useState} from "react";
+import Confetti from "react-confetti";
 
 function App() {
     // 게임 히스토리 상태 관리
@@ -84,16 +85,16 @@ function App() {
     // 앱 렌더링 부분: 게임 구성 요소와 정보 표시
     return (
         <div className="game">
+            {winner && <Confetti />} {/* 승자가 결정되었을 때만 Confetti 컴포넌트 렌더링 */}
             <div className="game-board">
-                <Board squares={current.squares} onClick={(i) => handleClick(i)}/>
+                <Board squares={current.squares} onClick={(i) => handleClick(i)} />
             </div>
             <div className="game-info">
-                <div className='status'>{status}</div>
-                <ol style={{listStyle: 'none'}}>{moves}</ol>
+                <div className="status">{status}</div>
+                <ol style={{ listStyle: "none" }}>{moves}</ol>
             </div>
         </div>
     );
-
 }
 
 export default App;
